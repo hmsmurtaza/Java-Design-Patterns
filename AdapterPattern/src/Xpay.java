@@ -1,17 +1,18 @@
 public interface Xpay {
-    public String getCreditCardNumber();
-    public String getCustomerName();
-    public String getCardExpiryMonth();
 
-    public String getCardExpiryYear();
+    String getCreditCardNumber();
+    String getCustomerName();
+    String getCardExpiryMonth();
 
-    public Short getCardCVVNumber();
-    public Double getAmount();
+    String getCardExpiryYear();
 
-    public void setCreditCardNumber(String creditCardNumber);
-    public void setCustomerName(String customerName);
-    public void setCardExpiryMonth(String cardExpiryMonth);
-    public void setCardExpiryYear(String cardExpiryYear);
-    public void setCardCVVNumber(short cardCVVNumber);
-    public void setAmount(Double amount);
+    Short getCardCVVNumber();
+    Double getAmount();
+
+    void setCreditCardNumber(String creditCardNumber);
+    void setCustomerName(String customerName);
+    void setCardExpiryMonth(String cardExpiryMonth);
+    void setCardExpiryYear(String cardExpiryYear);
+    void setCardCVVNumber(short cardCVVNumber);
+    void setAmount(Double amount);
 }
