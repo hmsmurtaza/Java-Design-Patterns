@@ -1,6 +1,10 @@
+package implementations;
+
+import interfaces.Turkey;
+
 public class WildTurkey implements Turkey {
     public WildTurkey() {
-        System.out.println("WildTurkey::WildTurkey()");
+        System.out.println("implementations.WildTurkey::implementations.WildTurkey()");
     }
 
     @Override

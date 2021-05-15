@@ -1,3 +1,8 @@
+package implementations;
+
+import interfaces.PayD;
+import interfaces.Xpay;
+
 public class XpayToPayDAdapter implements PayD {
 
     private String customerCardNumber;

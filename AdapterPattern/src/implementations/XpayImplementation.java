@@ -1,3 +1,7 @@
+package implementations;
+
+import interfaces.Xpay;
+
 public class XpayImplementation implements Xpay {
 
     private String creditCardNumber;

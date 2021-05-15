@@ -1,3 +1,7 @@
+package implementations;
+
+import interfaces.Duck;
+
 public class MallardDuck implements Duck {
 
     @Override
