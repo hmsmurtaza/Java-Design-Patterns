@@ -1,3 +1,8 @@
+import implementations.XpayImplementation;
+import implementations.XpayToPayDAdapter;
+import interfaces.PayD;
+import interfaces.Xpay;
+
 public class RunAdapterExample {
 
     public static void main(String[] args) {

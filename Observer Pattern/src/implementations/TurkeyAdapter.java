@@ -1,15 +1,20 @@
+package implementations;
+
+import interfaces.Duck;
+import interfaces.Turkey;
+
 public class TurkeyAdapter implements Duck {
     Turkey turkey;
 
     public TurkeyAdapter(Turkey turkey) {
-        System.out.println("TurkeyAdapter::TurkeyAdapter()");
+        System.out.println("implementations.TurkeyAdapter::implementations.TurkeyAdapter()");
         this.turkey = turkey;
-        System.out.println("Turkey Reference: " + turkey);
+        System.out.println("interfaces.Turkey Reference: " + turkey);
     }
 
     @Override
     public void quack() {
-        System.out.println("Turkey Reference: " + turkey);
+        System.out.println("interfaces.Turkey Reference: " + turkey);
         turkey.gobble();
     }
 
