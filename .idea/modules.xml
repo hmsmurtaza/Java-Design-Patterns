@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterPattern/AdapterPattern.iml" filepath="$PROJECT_DIR$/AdapterPattern/AdapterPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FactoryMethodDesignPattern/FactoryMethodDesignPattern.iml" filepath="$PROJECT_DIR$/FactoryMethodDesignPattern/FactoryMethodDesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Observer Pattern/Observer Pattern.iml" filepath="$PROJECT_DIR$/Observer Pattern/Observer Pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverPattern-Demo1/ObserverPattern-Demo1.iml" filepath="$PROJECT_DIR$/ObserverPattern-Demo1/ObserverPattern-Demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java_design_patterns.iml" filepath="$PROJECT_DIR$/.idea/java_design_patterns.iml" />
+    </modules>
+  </component>
+</project>
